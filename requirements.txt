@@ -1,0 +1,19 @@
+# Core dependencies
+numpy>=1.24.0
+dataclasses; python_version < "3.7"
+
+# Visualization (optional)
+matplotlib>=3.7.0
+plotly>=5.15.0
+
+# Serialization
+pydantic>=2.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
